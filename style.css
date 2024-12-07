@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('https://imgs.search.brave.com/Lm3oJkGQPazZh3zGXMUOrezCz9gXaYj7CP-8HwWooXY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTQ2/ODg2Njc2L3Bob3Rv/L3N0b3B3YXRjaC5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/WXl0dWNCWFJkLXhM/a21GaWV2UVppUzdk/RENuS2VOb3BDY0c4/dmZ3VFJKWT0');
+    font-family: Arial, sans-serif;
+}
+
+.stopwatch {
+    text-align: center;
+}
+
+#display {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: white;
+}
+
+button:hover {
+    background: #0056b3;
+}
